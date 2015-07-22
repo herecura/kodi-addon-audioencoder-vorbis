@@ -3,7 +3,7 @@
 
 pkgname=kodi-audioencoder-vorbis
 pkgver=20150601.15d619d
-pkgrel=1
+pkgrel=2
 pkgdesc="kodi audioencoder addon for ogg/vorbis"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.vorbis'
