@@ -1,7 +1,7 @@
 pkgbase = kodi-audioencoder-vorbis
 	pkgdesc = kodi audioencoder addon for ogg/vorbis
-	pkgver = 20150601.15d619d
-	pkgrel = 2
+	pkgver = 20150810.3a88875
+	pkgrel = 1
 	url = https://github.com/xbmc/audioencoder.vorbis
 	arch = i686
 	arch = x86_64
