@@ -1,15 +1,17 @@
 # $Id$
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
-pkgname=kodi-audioencoder-vorbis
+pkgname=kodi-addon-audioencoder-vorbis
 _commit=47a0676
 pkgver=20160219.47a0676
-pkgrel=1
-pkgdesc="kodi audioencoder addon for ogg/vorbis"
+pkgrel=2
+pkgdesc="Vorbis Audio Encoder add-on for Kodi"
 arch=('i686' 'x86_64')
 url='https://github.com/xbmc/audioencoder.vorbis'
 license=('GPL')
-groups=('kodi-addons')
+groups=('kodi-addons' 'kodi-addons-audioencoder')
+provides=('kodi-audioencoder-vorbis')
+replaces=('kodi-audioencoder-vorbis')
 depends=('kodi')
 makedepends=('git' 'cmake')
 source=("$pkgname::git://github.com/xbmc/audioencoder.vorbis.git#commit=$_commit")
