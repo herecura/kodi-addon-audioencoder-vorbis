@@ -1,9 +1,8 @@
-# $Id$
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-addon-audioencoder-vorbis
 epoch=1
-pkgver=1.1.1
+pkgver=2.0.1
 pkgrel=1
 pkgdesc="Vorbis Audio Encoder add-on for Kodi"
 arch=('x86_64')
@@ -15,7 +14,7 @@ replaces=('kodi-audioencoder-vorbis')
 depends=('kodi')
 makedepends=('cmake' 'kodi-dev')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/xbmc/audioencoder.vorbis/archive/v$pkgver.tar.gz")
-sha512sums=('6337d18b254b439d43044a52ea66589aea0e917bc598a91948ede27440563ec176e0b0af1148da8d5e67bdf1c25492db129bc4d3eb5d0d3a1f37b7918b89ecf5')
+sha512sums=('ed560a014d135dc9bc57f0185afd3fc4636158309eb4029b0fa1392ef2109c7795902eb37ce051d99199e5834d530c67b63362fdfb9db500a27e10c39d49e1d9')
 
 build() {
 	cd "audioencoder.vorbis-$pkgver"
