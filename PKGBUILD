@@ -3,7 +3,7 @@
 pkgname=kodi-addon-audioencoder-vorbis
 epoch=1
 pkgver=2.0.1
-pkgrel=8
+pkgrel=9
 pkgdesc="Vorbis Audio Encoder add-on for Kodi"
 arch=('x86_64')
 url='https://github.com/xbmc/audioencoder.vorbis'
